@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+    -webkit-font-smoothing: antialiased; /* Improves font rendering */
+    -moz-osx-font-smoothing: grayscale; /* Improves font rendering on macOS */
+    text-rendering: optimizeLegibility; /* Enhances text rendering for legibility */
+    font-smooth: always; /* Ensures smooth font rendering */
+}
+
+::selection {
+    background-color: red; 
+    color: white; /* Change the text color inside the selection */
+}
