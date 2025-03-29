@@ -11,7 +11,7 @@ The Document Signer & Annotation Tool is a modern web application built with Nex
 
 Built with cutting-edge technologies like React, Tailwind CSS, and pdf-lib, this project demonstrates the power of modern web development to create efficient and user-friendly tools.
 
-### Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**  
    ```bash
@@ -32,7 +32,7 @@ Built with cutting-edge technologies like React, Tailwind CSS, and pdf-lib, this
    ```
    The app should now be running at http://localhost:3000
 
-### Tools Used
+## Tools Used
 1. **Framer Motion:** I Used this for animations and transitions, such as sidebar animations and notification popups.
 
 2. **lucide-react**: This Provides SVG-based icons used in the UI, such as file upload and alert icons.
@@ -47,7 +47,7 @@ Built with cutting-edge technologies like React, Tailwind CSS, and pdf-lib, this
 
 7. **uuid**: Used this to generate unique IDs for annotations.
 
-### Challenges Faced and How They Were Solved
+## Challenges Faced and How They Were Solved
 
 1. **PDF Rendering Issues**: 
    - **Challenge**: Had issues rendering the PDF initially with react-pdf.
@@ -69,7 +69,7 @@ Built with cutting-edge technologies like React, Tailwind CSS, and pdf-lib, this
    - **Challenge**: Implementing a seamless drag-and-drop feature for uploading PDF files.
    - **Solution**: Used `react-dropzone` to handle drag-and-drop events and uploading PDFs, this made life easy as it was straightforward to set up.
 
-### Features to Add If More Time Was Available
+## Features to Add If More Time Was Available
 
 1. **Zoom Functionality**: Allow users to zoom in and out of the PDF for better readability and precision when annotating.
 2. **Full-Page Mode**: Add a feature to view the PDF in full-page mode for an immersive reading experience.
